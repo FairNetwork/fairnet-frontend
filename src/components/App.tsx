@@ -105,7 +105,7 @@ const App = () => {
                 )}
             </div>
         ),
-        [handleAllotmentDragEnd, handleItemClick, isMobile, leftElements, rightElement, rightElementClasses, snapAnchor]
+        [handleAllotmentDragEnd, handleItemClick, isMobile, leftElements, location.pathname, rightElement, rightElementClasses, snapAnchor]
     );
 };
 
