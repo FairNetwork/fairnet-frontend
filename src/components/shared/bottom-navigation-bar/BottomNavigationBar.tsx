@@ -18,7 +18,7 @@ interface BottomNavigationBarProps {
 const BottomNavigationBar: FC<BottomNavigationBarProps> = ({items, onClick, currentRoute}) => {
     return (
         <nav className="bottom-navigation-bar">
-            {items.map(({icon, route}, index) => {
+            {items.map(({icon, route, label}, index) => {
                 const isActive = currentRoute === route;
 
                 return (
@@ -30,8 +30,8 @@ const BottomNavigationBar: FC<BottomNavigationBarProps> = ({items, onClick, curr
                         key={index}
                         onClick={() => onClick(route)}
                     >
-                        <Icon icon={icon} size={26}/>
-                        {/*<span className="bottom-navigation-bar__item-wrapper__label">{item.label}</span>*/}
+                        <Icon icon={icon} size={20}/>
+                        <span className="bottom-navigation-bar__item-wrapper__label">{label}</span>
                     </button>
                 );
             })}
