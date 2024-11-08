@@ -30,6 +30,10 @@
       box-shadow: rgba(0, 0, 0, 0.2) 0 0 20px 16px;
       height: 100%;
       width: 100%;
+
+      &--mobile{
+        border-radius: 0;
+      }
     }
   }
 
