@@ -6,7 +6,7 @@ body {
   --text-color: #E0E0E0;
   --text-color-secondary: #B0B0B0;
 
-  background-color: var(--primary-color);
+  background-color: #5AD1B8;
   color: var(--text-color) !important;
 
   margin: 0;

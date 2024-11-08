@@ -21,7 +21,7 @@ const LeftItem: FC<LeftItemProps> = ({ icon, isActive, onClick, route, text }) =
     return (
         <div className={classes} onClick={handleClick}>
             <div className="left-item__icon">
-                <Icon color="white" icon={icon} size={21} />
+                <Icon color="white" icon={icon} size={21} style={{cursor: 'pointer'}}/>
             </div>
             <div className="left-item__text ellipsis">{text}</div>
         </div>
