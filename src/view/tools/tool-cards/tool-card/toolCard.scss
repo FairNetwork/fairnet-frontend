@@ -1,0 +1,19 @@
+.tool-card {
+  img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+  }
+
+  &__content {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    &__name {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+  }
+}

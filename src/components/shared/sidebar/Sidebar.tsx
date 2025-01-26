@@ -1,7 +1,7 @@
 import SubHeading from './sub-heading/SubHeading';
 import SidebarItem from './sidebar-item/SidebarItem';
 import Logo from './logo/Logo';
-import logo from '../../../assets/fairfit_logo.png';
+import logo from '../../../assets/FairNet_Logo.png';
 import './sidebar.scss';
 import { useSidebarProvider } from './SidebarProvider';
 import { CSSProperties, useEffect, useMemo, useRef } from 'react';
@@ -67,6 +67,8 @@ const Sidebar = () => {
                 </Logo>
                 <SubHeading>
                     <SidebarItem text="Home" icon="fas fa-house" route="/" />
+                    <SidebarItem text="Tools" icon="fas fa-toolbox" route="/tools" />
+                    <SidebarItem text="Team" icon="fas fa-people-group" route="/team" isDisabled />
                 </SubHeading>
             </motion.div>
             {isMobile && isOpen && (

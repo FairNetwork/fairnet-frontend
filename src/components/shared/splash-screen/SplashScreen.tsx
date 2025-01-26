@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from 'framer-motion';
-import logo from '../../../assets/fairfit_logo.png';
+import logo from '../../../assets/FairNet_Logo.png';
 import './splashScreen.scss';
 
 const SplashScreen = () => {
