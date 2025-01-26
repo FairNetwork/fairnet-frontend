@@ -1,1 +1,1 @@
-# fairfit-frontend
+# fairnet-frontend
