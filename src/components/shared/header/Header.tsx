@@ -1,10 +1,16 @@
 import './header.scss';
-import { useHeaderContent } from '../../../hooks/header';
+import logo from '../../../assets/FairNet_Logo.png';
 
 const Header = () => {
-    const content = useHeaderContent();
-
-    return <div className="header">{content}</div>;
+    return (
+        <div className="header">
+            <div className="header__logo">
+                <img alt="Logo" src={logo} />
+            </div>
+            <div className="header__items"></div>
+            <div className="header__menu"></div>
+        </div>
+    );
 };
 
 Header.displayName = 'Header';
