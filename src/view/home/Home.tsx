@@ -30,7 +30,7 @@ const Home = () => {
                 text={
                     <p>
                         Dein Traum von einer eigenen Website? Wir machen ihn wahr – <b>einfach</b>,{' '}
-                        <b>transparent</b> und mit dir <b>gemeinsam</b>. Egal ob Start-up, Verein
+                        <b>transparent</b> und mit Dir <b>gemeinsam</b>. Egal ob Start-up, Verein
                         oder Herzensprojekt:
                         <br /> Wir nehmen Dich an die Hand und sorgen für den perfekten Auftritt.
                         <br />
