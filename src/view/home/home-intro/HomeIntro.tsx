@@ -1,15 +1,14 @@
 import './homeIntro.scss';
-const image =
-    'https://image.geo.de/30141740/t/kd/v4/w1440/r0/-/01-monatsgewinner-2018-05-lars-lykke-cewe-owib-jpg--80669-.jpg';
+import image from '../../../assets/Intro_Background.png';
 
 const HomeIntro = () => {
     return (
         <div className="home-intro" style={{ backgroundImage: `url(${image})` }}>
             <div className="home-intro__content">
-                <h1>Was ist schon Fair?</h1>
+                <h1>Was bedeutet fair für Dich?</h1>
                 <p>
-                    „Gerechtigkeit ist nicht, dass alle das Gleiche bekommen, sondern dass jeder das
-                    bekommt, was er verdient.“ – Aristoteles
+                    „Fair ist nicht, wenn jeder das Gleiche bekommt. Fair ist, wenn jeder das
+                    bekommt, was er braucht.“ ~ Unbekannt
                 </p>
             </div>
         </div>

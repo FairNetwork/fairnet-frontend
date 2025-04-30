@@ -15,9 +15,11 @@ const App = () => {
             <div className="app">
                 <div className="app__wrapper">
                     <Header />
-                    <div className="app__wrapper__spacer" />
-                    {content}
-                    <Footer />
+                    <div className="app__wrapper__content">
+                        <div className="app__wrapper__content__spacer" />
+                        {content}
+                        <Footer />
+                    </div>
                 </div>
             </div>
         </ColorSchemeProvider>
