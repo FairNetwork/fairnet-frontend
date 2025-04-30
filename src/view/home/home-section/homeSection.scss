@@ -1,0 +1,17 @@
+.home-section {
+  width: 100%;
+
+  &__content {
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 100px 22px;
+    color: #13584f;
+    text-align: center;
+
+    p {
+      font-size: 1.4rem;
+    }
+  }
+}

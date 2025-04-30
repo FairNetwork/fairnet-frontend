@@ -1,10 +1,34 @@
 .header{
+  position: absolute;
+  width: 100%;
   height: 64px;
 
   display: flex;
   align-items: center;
-  background-color: var(--secondary-background-color);
+  justify-content: space-between;
 
   padding: 0 24px;
-  border-bottom: 1px solid var(--thin-border-color);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+
+  z-index: 100;
+
+  &__logo{
+    height: 80%;
+
+    img{
+      height: 100%;
+      aspect-ratio: 1;
+    }
+  }
+
+  &__items{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  &__menu{}
 }

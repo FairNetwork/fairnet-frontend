@@ -19,20 +19,20 @@ export const THEME: ColorScheme = {
         invalidBorderColor: '#ff0000'
     },
     light: {
-        primaryColor: '#EE7674',
-        secondaryColor: '#BDD9BF',
-        primaryBackgroundColor: '#fafafc',
+        primaryColor: '#00BFA6',
+        secondaryColor: '#43A047',
+        primaryBackgroundColor: '#FAFAFA',
         secondaryBackgroundColor: '#FFFFFF',
-        primaryTextColor: '#000000',
-        secondaryTextColor: '#4A4A4A',
+        primaryTextColor: '#212121',
+        secondaryTextColor: '#616161',
         thinBorderColor: 'rgb(242, 242, 247)',
-        sectionBackgroundColor: '#000',
-        sectionTextColor: '#FFF',
-        sidebarTextColor: '#000',
-        sidebarActiveColor: 'rgba(238, 118, 116, 0.6)',
-        sidebarHoverColor: 'rgba(189, 217, 191, 0.6)',
+        sectionBackgroundColor: '',
+        sectionTextColor: '',
+        sidebarTextColor: '',
+        sidebarActiveColor: '',
+        sidebarHoverColor: '',
         footerBackgroundColor: 'rgb(242, 242, 247)',
         footerTextColor: 'rgb(99, 99, 102)',
-        invalidBorderColor: '#ff0000'
+        invalidBorderColor: '#E53935'
     }
 };

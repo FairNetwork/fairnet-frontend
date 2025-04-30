@@ -1,0 +1,20 @@
+.home-intro{
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__content {
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 100px 22px;
+    color: #fff;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    text-align: center;
+
+    p {
+      font-size: 1.4rem;
+    }
+  }
+}
