@@ -19,7 +19,7 @@ const App = () => {
             <div className="app">
                 <div className="app__wrapper">
                     <Header />
-                    <ScrollBar topOffset={76} bottomOffset={12}>
+                    <ScrollBar topOffset={76} bottomOffset={68}>
                         <div className="app__wrapper__content">
                             <div className="app__wrapper__content__spacer" />
                             {content}

@@ -27,10 +27,7 @@ const HomeSection: FC<HomeSectionProps> = ({ headline, text, style, route, butto
                 {text}
                 {typeof route === 'string' && typeof buttonText === 'string' && (
                     <div className="home-section__content__button">
-                        <Button
-                            onClick={handleClick}
-                            type={ButtonType.Outline}
-                            style={{ fontSize: '1.125rem' }}>
+                        <Button onClick={handleClick} type={ButtonType.Outline}>
                             {buttonText}
                         </Button>
                     </div>
