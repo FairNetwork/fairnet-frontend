@@ -21,18 +21,16 @@ const HomeSection: FC<HomeSectionProps> = ({ headline, text, style, route, butto
     };
 
     return (
-        <div className="home-Section" style={style}>
-            <div className="home-section__content">
-                <h1>{headline}</h1>
-                {text}
-                {typeof route === 'string' && typeof buttonText === 'string' && (
-                    <div className="home-section__content__button">
-                        <Button onClick={handleClick} type={ButtonType.Outline}>
-                            {buttonText}
-                        </Button>
-                    </div>
-                )}
-            </div>
+        <div className="home-section" style={style}>
+            <h1>{headline}</h1>
+            {text}
+            {typeof route === 'string' && typeof buttonText === 'string' && (
+                <div className="home-section__content__button">
+                    <Button onClick={handleClick} type={ButtonType.Outline}>
+                        {buttonText}
+                    </Button>
+                </div>
+            )}
         </div>
     );
 };

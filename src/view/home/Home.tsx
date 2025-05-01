@@ -1,11 +1,19 @@
-import './home.scss';
-import HomeIntro from './home-intro/HomeIntro';
 import HomeSection from './home-section/HomeSection';
+import './home.scss';
 
 const Home = () => {
     return (
         <div className="home">
-            <HomeIntro />
+            <HomeSection
+                headline={'Was bedeutet fair für Dich?'}
+                text={
+                    <p>
+                        „Fair ist nicht, wenn jeder das Gleiche bekommt. Fair ist, wenn jeder das
+                        bekommt, was er braucht.“ ~ Unbekannt
+                    </p>
+                }
+                style={{ backgroundColor: 'transparent' }}
+            />
             <HomeSection
                 headline={'Warum FairNet? – Weil Gutes einfach besser wirkt'}
                 text={
@@ -35,9 +43,7 @@ const Home = () => {
                         Los geht’s – Deine Website wartet schon auf Dich.
                     </p>
                 }
-                style={{
-                    backgroundColor: 'var(--section-background-color)'
-                }}
+                style={{ backgroundColor: 'transparent' }}
                 route="/fairsite"
                 buttonText="Mehr erfahren"
             />

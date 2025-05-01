@@ -1,4 +1,11 @@
 .home {
   position: relative;
   width: 100%;
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 22px;
+
+  h1 {
+    text-align: center;
+  }
 }
