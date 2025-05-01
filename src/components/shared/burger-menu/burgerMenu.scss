@@ -1,0 +1,21 @@
+.burger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  &__top {
+    width: 100%;
+    border-radius: 2px;
+    display: block;
+  }
+
+  &__bottom {
+    width: 100%;
+    border-radius: 2px;
+    display: block;
+  }
+}

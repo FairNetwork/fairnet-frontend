@@ -30,7 +30,7 @@ const HomeSection: FC<HomeSectionProps> = ({ headline, text, style, route, butto
                         <Button
                             onClick={handleClick}
                             type={ButtonType.Outline}
-                            style={{ fontSize: '1.3rem' }}>
+                            style={{ fontSize: '1.125rem' }}>
                             {buttonText}
                         </Button>
                     </div>
