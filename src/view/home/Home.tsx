@@ -39,7 +39,7 @@ const Home = () => {
                     </p>
                 }
                 style={{
-                    backgroundColor: '#E0F7F4'
+                    backgroundColor: 'var(--section-background-color)'
                 }}
                 route="/fairsite"
                 buttonText="Mehr erfahren"
