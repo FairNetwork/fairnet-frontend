@@ -1,0 +1,30 @@
+.scroll-bar {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+
+  &__scroll-container {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+
+    scrollbar-width: none; // Firefox
+    -ms-overflow-style: none; // IE/Edge
+
+    &::-webkit-scrollbar {
+      display: none; // Chrome/Safari
+    }
+  }
+
+  &__scroll-thumb {
+    position: absolute;
+    right: 2px;
+    width: 6px;
+    background-color: rgba(100, 100, 100, 0.6);
+    border-radius: 3px;
+    pointer-events: none;
+    z-index: 100;
+  }
+
+}

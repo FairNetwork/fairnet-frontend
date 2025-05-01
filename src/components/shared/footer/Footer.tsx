@@ -9,7 +9,7 @@ const Footer = () => {
     const content = useMemo(() => {
         return FOOTER.map(({ text, route }) => {
             return (
-                <div className="footer__item" onClick={() => navigate(route)}>
+                <div key={route} className="footer__item" onClick={() => navigate(route)}>
                     {text}
                 </div>
             );

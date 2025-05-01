@@ -5,8 +5,12 @@ import { useColorMode } from '../hooks/color';
 import Header from './shared/header/Header';
 import Footer from './shared/footer/Footer';
 import './app.scss';
+import ScrollBar from './shared/scroll-bar/ScrollBar';
+import { useScrollTop } from '../hooks/scroll';
 
 const App = () => {
+    useScrollTop();
+
     const content = useContent();
     const colorMode = useColorMode();
 
@@ -15,11 +19,13 @@ const App = () => {
             <div className="app">
                 <div className="app__wrapper">
                     <Header />
-                    <div className="app__wrapper__content">
-                        <div className="app__wrapper__content__spacer" />
-                        {content}
-                        <Footer />
-                    </div>
+                    <ScrollBar topOffset={76} bottomOffset={12}>
+                        <div className="app__wrapper__content">
+                            <div className="app__wrapper__content__spacer" />
+                            {content}
+                            <Footer />
+                        </div>
+                    </ScrollBar>
                 </div>
             </div>
         </ColorSchemeProvider>
