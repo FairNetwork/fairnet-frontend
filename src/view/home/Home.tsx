@@ -1,11 +1,8 @@
 import './home.scss';
-import { useScrollTop } from '../../hooks/scroll';
 import HomeIntro from './home-intro/HomeIntro';
 import HomeSection from './home-section/HomeSection';
 
 const Home = () => {
-    useScrollTop();
-
     return (
         <div className="home">
             <HomeIntro />
