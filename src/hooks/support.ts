@@ -13,9 +13,9 @@ export const useImpact = () => {
     const year = '2025';
 
     const data = [
-        { amount: '15.000', label: 'Gesamtspenden' },
-        { amount: '4', label: 'Unterstützte Projekte' },
-        { amount: '250', label: 'Erreichte Kinder' }
+        { amount: 15000, label: 'Gesamtspenden', suffix: '€' },
+        { amount: 4, label: 'Unterstützte Projekte' },
+        { amount: 250, label: 'Erreichte Kinder', suffix: '+' }
     ];
 
     return { year, data };
