@@ -29,7 +29,7 @@ const Product: FC<ProductProps> = ({ id }) => {
 
             <div className="product__content">
                 <h2>{name}</h2>
-                <p>{description}</p>
+                <div dangerouslySetInnerHTML={{ __html: description }} />
                 <div className="product__content__button">
                     <Button onClick={handleButtonClick} type={ButtonType.Outline}>
                         Mehr erfahren

@@ -3,11 +3,15 @@ import './introBox.scss';
 const IntroBox = () => {
     return (
         <div className="intro-box">
-            <h2>Wir spenden 10% unseres Gewinns</h2>
+            <h2>Mit Dir bewirken wir mehr</h2>
             <p>
-                Bei FairNet glauben wir daran, dass Unternehmen eine Verantwortung tragen. Deshalb
-                spenden wir 10% unseres jährlichen Gewinns an Organisationen, die Kindern neue
-                Chancen ermöglichen.
+                FairNet steht für digitale Lösungen mit Herz. Deshalb fließen{' '}
+                <b>10 % unseres Gewinns</b> direkt in Projekte, die <b>Kindern neue Chancen</b>{' '}
+                geben – Bildung, Sicherheit und ein besseres Morgen.
+                <br />
+                <br />
+                Mit Deiner Entscheidung unterstützt <b>Du nicht nur Dich selbst</b>, sondern machst
+                auch die Welt ein Stück gerechter.
             </p>
         </div>
     );

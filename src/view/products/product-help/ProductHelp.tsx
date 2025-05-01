@@ -8,10 +8,13 @@ const ProductHelp = () => {
 
     return (
         <div className="product-help">
-            <h2>Nicht sicher, was Du brauchst?</h2>
+            <h2>Unsicher, was am besten zu Dir passt?</h2>
             <p>
-                Wir beraten Dich gerne persönlich und finden gemeinsam die perfekte Lösung für Dein
-                Projekt.
+                Kein Problem – wir nehmen Dich an die Hand. In einem persönlichen Gespräch finden
+                wir gemeinsam heraus, <b>was Du wirklich brauchst</b> – ganz ohne Fachchinesisch.
+                <br />
+                <br />
+                Du sagst uns, wohin Du willst. Wir zeigen Dir den einfachsten Weg dorthin.
             </p>
             <div className="product-help__button">
                 <Button onClick={handleButtonClick} type={ButtonType.Outline}>
