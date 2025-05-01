@@ -3,7 +3,6 @@ export const useHeader = () => {
 
     const items = [
         { name: 'Hilfsprojekte', route: '/support' },
-        { name: 'FairSite', route: '/fairsite' },
         { name: 'Produkte', route: '/products' }
     ];
 
