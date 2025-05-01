@@ -1,16 +1,17 @@
 .home-section {
-  width: 100%;
+  background-color: var(--section-background-color);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
 
-  &__content {
-    position: relative;
-    z-index: 2;
-    margin: 0 auto;
-    max-width: 980px;
-    padding: 100px 22px;
-    text-align: center;
+  h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
 
-    p {
-      font-size: 1.125rem;
-    }
+  p {
+    font-size: 1.125rem;
   }
 }
