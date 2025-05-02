@@ -5,6 +5,7 @@ import NoContent from '../view/no-content/NoContent';
 import Utility from '../view/utility/Utility';
 import Support from '../view/support/Support';
 import Products from '../view/products/Products';
+import FairSite from '../view/fair-site/FairSite';
 
 export const useContent = () => {
     const location = useLocation();
@@ -17,6 +18,8 @@ export const useContent = () => {
         if (path === '/support') return <Support />;
 
         if (path === '/products') return <Products />;
+
+        if (path === '/fairsite') return <FairSite />;
 
         if (path.startsWith('/utility')) return <Utility />;
 
