@@ -2,6 +2,7 @@ import { FC } from 'react';
 import { useOrganization } from '../../../../hooks/support';
 import Button, { ButtonType } from '../../../../components/shared/button/Button';
 import './organization.scss';
+import Badge from '../../../../components/shared/badge/Badge';
 
 interface OrganizationCardProps {
     id: string;
@@ -14,7 +15,7 @@ const OrganizationCard: FC<OrganizationCardProps> = ({ id }) => {
         return null;
     }
 
-    const { name, website, description } = organization;
+    const { name, website, description, scope } = organization;
 
     const handleClick = () => {
         window.open(website, '_blank');
@@ -23,6 +24,7 @@ const OrganizationCard: FC<OrganizationCardProps> = ({ id }) => {
     return (
         <div className="organization">
             <h3>{name}</h3>
+            <Badge>{scope}</Badge>
             <p>{description}</p>
             <div className="organization__button">
                 <Button onClick={handleClick} type={ButtonType.Outline}>

@@ -1,0 +1,17 @@
+.review{
+  background-color: var(--secondary-background-color);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  width: 300px;
+
+  &__stars {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+
+  &__text {
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+}
