@@ -1,9 +1,16 @@
 .organization {
   border: 1px solid var(--primary-color);
   border-radius: 12px;
+  background: var(--secondary-background-color);
   padding: 12px;
 
-  h3{
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  }
+
+  h3 {
     color: #0f766e;
   }
 
