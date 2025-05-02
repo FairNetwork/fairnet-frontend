@@ -2,7 +2,7 @@
   display: flex;
   gap: 6px;
   border-radius: 100px;
-  border: 1px solid var(--thin-border-color);
+  border: 1px solid var(--primary-color);
 
   align-items: center;
   padding: 12px;
@@ -12,6 +12,8 @@
     border: none;
     background-color: transparent;
     width: 100%;
+
+    font-family: 'Source Sans Pro', serif;
   }
 
   input:focus-visible {

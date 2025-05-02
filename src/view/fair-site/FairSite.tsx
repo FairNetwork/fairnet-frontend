@@ -6,11 +6,15 @@ import Contact from './contact/Contact';
 const FairSite = () => {
     return (
         <div className="fair-site">
-            <h1>Deine maßgeschneiderte Website mit FairSite</h1>
+            <h1>Deine Website, so individuell wie Du</h1>
             <p>
-                Wir gestalten Deine perfekte Online-Präsenz – von der ersten Idee bis zur fertigen
-                Website. Mit FairSite erhältst Du eine professionelle, benutzerfreundliche und
-                responsive Website, die genau zu Deinen Bedürfnissen passt.
+                Stell Dir eine Website vor, die nicht nur gut aussieht, sondern Dich wirklich
+                weiterbringt. Mit <b>FairSite</b> entsteht Deine Online-Präsenz – durchdacht,
+                professionell und auf Deine Ziele abgestimmt.
+                <br />
+                <br />
+                Von der ersten Idee bis zum letzten Klick:{' '}
+                <b>Du bekommst alles, was Deine Website stark macht</b>.
             </p>
             <Technologies />
             <Reviews />

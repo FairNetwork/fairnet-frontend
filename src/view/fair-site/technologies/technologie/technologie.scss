@@ -1,1 +1,28 @@
-.technologie{}
+.technologie {
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  gap: 12px;
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 128, 128, 0.2);
+  }
+
+  &__content {
+    &__title {
+      margin-bottom: 0.5rem;
+      font-size: 1.125rem;
+      font-weight: bold;
+      text-align: start;
+      margin-top: 0;
+    }
+
+    &__description {
+      font-size: 0.875rem;
+      text-align: start !important;
+    }
+  }
+}
