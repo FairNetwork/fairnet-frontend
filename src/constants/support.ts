@@ -2,19 +2,11 @@ import { Organization, OrganizationScope } from '../types/support';
 
 export const ORGANIZATIONS: Organization[] = [
     {
-        id: 'trgsdf3425ezthdgf',
-        name: 'Kinderhilfe Deutschland e.V.',
+        id: '0196916d-52e9-7353-af52-4713a364d33a',
+        name: 'Messdiener St. Marien Ahaus',
         description:
-            'Fördert Bildungsprojekte für benachteiligte Kinder in ganz Deutschland mit Schwerpunkt auf digitaler Bildung und Zukunftskompetenzen.',
-        website: '',
-        scope: OrganizationScope.Germany
-    },
-    {
-        id: '32twegstw45tsdhf',
-        name: 'Zukunft für Kinder',
-        description:
-            'Unterstützt Kinder in Entwicklungsländern durch den Bau von Schulen und die Bereitstellung von Lernmaterialien und Stipendien.',
-        website: '',
-        scope: OrganizationScope.International
+            'Die Messdiener St. Marien Ahaus sind eine lebendige Gemeinschaft junger Menschen, die sich aktiv in das kirchliche Leben der Pfarrgemeinde einbringen. Neben ihrem Dienst am Altar gestalten sie das Gemeindeleben durch regelmäßige Gruppenstunden, Ausflüge, soziale Aktionen und Ferienfreizeiten. Der Verein steht für Gemeinschaft, Engagement und den Glauben – mit Spaß, Verantwortung und Zusammenhalt.',
+        website: 'https://messdiener-ahaus.de/',
+        scope: OrganizationScope.Local
     }
 ];
