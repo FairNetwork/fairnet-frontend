@@ -1,4 +1,49 @@
 .utility-data-protection {
-  height: 100%;
   width: 100%;
+
+  h1 {
+    text-align: center;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    &__section {
+      border: 1px solid var(--primary-color);
+      border-radius: 0.5rem;
+      padding: 1.5rem;
+
+      transition: box-shadow 0.3s ease;
+
+      &:hover {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+      }
+
+      h2 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        margin-top: 0;
+      }
+
+      p {
+        margin-bottom: 0.5rem;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      a {
+        color: var(--primary-color);
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }
